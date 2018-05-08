@@ -26,19 +26,17 @@
          <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
          <script>
             const myApp = new Vue({
-                el: '#app',
-                message: 'Cloud!',
-                date: '오늘 날짜: ' + new Date().toLocaleString()
-                seen: true,
-                todos: [
-                    { text: 'JavaScript' }
-                    { text: 'Node.js' }
-                    { text: 'Vue.js' }
-                    { text: 'nust.js' }
-                ]
-            });
-
+                 el: '#app',
+                 data: {
+                 todos: [
+                     { text: 'JavaScript' },
+                     { text: 'Vue' },
+                     { text: 'Nuxt' }
+                     ]
+    }
+  })
 </script>
+
 
 </body>
 
